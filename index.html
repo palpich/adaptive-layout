@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <!-- Normalize.css заставляет браузеры отображать все элементы более последовательно и в соответствии с современными стандартами. Он точно нацелен только на стили, требующие нормализации. -->
+  <link rel="stylesheet" href="./normalize.css">
+  <!-- Общие стили нашей страницы. -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1 class="title">Список товаров</h1>
+  <!-- Обертка списка, которая центрует наш список и добавляет отступы. -->
+  <main class="list-card">
+<!--    Создаем адаптивную сетку, которая рисует от 1 до 4 элементов, в зависимости от брейкпоинтов. -->
+    <div class="grid">
+<!--      Каждую карточку оборачиваем в ячейку. -->
+      <div class="cell">
+<!--        Компонент карточки. -->
+        <div class="card">
+          <div class="card-preview">
+            <img class="card-preview-inner" src="https://i.pinimg.com/originals/8a/eb/d8/8aebd875fbddd22bf3971c3a7159bdc7.png" alt="Изображение товара">
+          </div>
+          <h2 class="card-title">Заголовок товара</h2>
+          <p class="card-description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
+          <button class="card-button-show">Посмотреть товар</button>
+        </div>
+      </div>
+
+      <div class="cell">
+        <div class="card">
+          <div class="card-preview">
+            <img class="card-preview-inner" src="https://i.pinimg.com/originals/8a/eb/d8/8aebd875fbddd22bf3971c3a7159bdc7.png" alt="Изображение товара">
+          </div>
+          <h2 class="card-title">Заголовок товара</h2>
+          <p class="card-description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
+          <button class="card-button-show">Посмотреть товар</button>
+        </div>
+      </div>
+
+      <div class="cell">
+        <div class="card">
+          <div class="card-preview">
+            <img class="card-preview-inner" src="https://i.pinimg.com/originals/8a/eb/d8/8aebd875fbddd22bf3971c3a7159bdc7.png" alt="Изображение товара">
+          </div>
+          <h2 class="card-title">Заголовок товара</h2>
+          <p class="card-description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
+          <button class="card-button-show">Посмотреть товар</button>
+        </div>
+      </div>
+
+      <div class="cell">
+        <div class="card">
+          <div class="card-preview">
+            <img class="card-preview-inner" src="https://i.pinimg.com/originals/8a/eb/d8/8aebd875fbddd22bf3971c3a7159bdc7.png" alt="Изображение товара">
+          </div>
+          <h2 class="card-title">Заголовок товара</h2>
+          <p class="card-description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
+          <button class="card-button-show">Посмотреть товар</button>
+        </div>
+      </div>
+
+      <div class="cell">
+        <div class="card">
+          <div class="card-preview">
+            <img class="card-preview-inner" src="https://i.pinimg.com/originals/8a/eb/d8/8aebd875fbddd22bf3971c3a7159bdc7.png" alt="Изображение товара">
+          </div>
+          <h2 class="card-title">Заголовок товара</h2>
+          <p class="card-description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
+          <button class="card-button-show">Посмотреть товар</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
